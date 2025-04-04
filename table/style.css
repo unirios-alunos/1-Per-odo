@@ -1,0 +1,78 @@
+:root {
+  --bg-th: #000000;
+  --bg-td-cinza: #666666;
+  --bg-borda-table: #666666;
+  --color-th: #fafafa;
+  --border-td: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*TAGs */
+body {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+header {
+  text-align: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section {
+  text-align: center;
+}
+table {
+  width: 800px;
+  border-collapse: collapse;
+}
+
+h2 {
+  margin: 1rem;
+}
+
+table th {
+  background-color: var(--bg-th);
+  color: var(--color-th);
+  padding: 8px;
+}
+
+table img {
+  display: block;
+  margin: auto;
+  width: 150px;
+}
+
+table td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid var(--border-td);
+}
+
+/*Classes */
+.bg-cinza {
+  background-color: var(--bg-td-cinza);
+}
+.italico {
+  font-style: italic;
+}
+table tr .td-img {
+  padding: 14px 0;
+}
+
+.personagens-ul {
+  text-align: justify;
+  margin-left: 1.3rem;
+}
+
+#sectionPersonagens th {
+  text-transform: uppercase;
+}
